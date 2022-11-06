@@ -10,7 +10,7 @@ import { AuthDto } from 'src/auth/dto/auth.dto';
 const productId = new Types.ObjectId().toHexString();
 
 const loginDto: AuthDto = {
-	login: 'test',
+	login: 'a@a.ru',
 	password: '1'
 };
 
